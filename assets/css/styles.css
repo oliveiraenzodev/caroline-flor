@@ -147,6 +147,14 @@ h2{font:500 clamp(2.5rem,4.5vw,4.4rem)/.98 Georgia,serif;letter-spacing:-.045em;
 }
 .gallery figure:hover .gallery-overlay{opacity:1;transform:none}
 
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
 
 /* Convênios */
 .plans-section{
