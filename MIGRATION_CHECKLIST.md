@@ -49,6 +49,21 @@
 - Página 404.
 
 ## Convênios adicionados na remodelagem
-- Seção de convênios: CASSI, Saúde Caixa e ValeSaúde, com CTA de consulta de cobertura.
-- Confirmar com a clínica, antes do go-live, se a lista permanece atual e se existem outros convênios a incluir.
-- Não prometer cobertura específica; o texto orienta o visitante a confirmar disponibilidade com a equipe.
+A seção foi reconstruída como carrossel responsivo, preservando a lógica visual do módulo atual.
+
+Convênios identificados nos materiais fornecidos:
+- CASSI
+- Saúde Caixa
+- ValeSaúde
+- CODEVASF
+- Fachesf
+- Gama
+- Porto Seguro
+- Camed Saúde
+- APUB
+- Blue
+- BC Saúde
+- ASFEB
+
+Antes do go-live, confirmar com a clínica se todos permanecem ativos e se existem outros convênios a incluir.
+A página não promete cobertura específica; orienta o paciente a consultar a equipe.

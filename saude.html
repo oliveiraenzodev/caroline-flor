@@ -50,36 +50,90 @@
       </p>
     </div>
 
-    <div class="plans-grid reveal">
-      <article class="plan-card">
-        <div class="plan-logo">
-          <img src="assets/images/convenio-cassi.jpg" alt="Convênio CASSI" loading="lazy">
-        </div>
-        <div class="plan-copy">
-          <strong>CASSI</strong>
-          <span>Consulte os atendimentos disponíveis para o seu plano.</span>
-        </div>
-      </article>
+    <div class="plans-carousel reveal" data-plans-carousel>
+      <button class="plans-arrow plans-arrow-prev" type="button" data-plan-prev aria-label="Convênios anteriores">
+        <span aria-hidden="true">←</span>
+      </button>
 
-      <article class="plan-card">
-        <div class="plan-logo">
-          <img src="assets/images/convenio-saude-caixa.jpg" alt="Convênio Saúde Caixa" loading="lazy">
+      <div class="plans-viewport">
+        
+      <div class="plans-slide is-active" data-plan-slide="0" aria-hidden="false">
+        <div class="plans-slide-grid">
+          
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-cassi.png" alt="Convênio CASSI" loading="lazy">
+            <span>CASSI</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-saude-caixa.png" alt="Convênio Saúde Caixa" loading="lazy">
+            <span>Saúde Caixa</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-valesaude.png" alt="Convênio ValeSaúde" loading="lazy">
+            <span>ValeSaúde</span>
+          </article>
         </div>
-        <div class="plan-copy">
-          <strong>Saúde Caixa</strong>
-          <span>Verifique cobertura e disponibilidade diretamente com a clínica.</span>
+      </div>
+      <div class="plans-slide" data-plan-slide="1" aria-hidden="true">
+        <div class="plans-slide-grid">
+          
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-codevasf.png" alt="Convênio CODEVASF" loading="lazy">
+            <span>CODEVASF</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-fachesf.png" alt="Convênio Fachesf" loading="lazy">
+            <span>Fachesf</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-gama.png" alt="Convênio Gama" loading="lazy">
+            <span>Gama</span>
+          </article>
         </div>
-      </article>
+      </div>
+      <div class="plans-slide" data-plan-slide="2" aria-hidden="true">
+        <div class="plans-slide-grid">
+          
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-porto-seguro.png" alt="Convênio Porto Seguro" loading="lazy">
+            <span>Porto Seguro</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-camed.png" alt="Convênio Camed Saúde" loading="lazy">
+            <span>Camed Saúde</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-apub.png" alt="Convênio APUB" loading="lazy">
+            <span>APUB</span>
+          </article>
+        </div>
+      </div>
+      <div class="plans-slide" data-plan-slide="3" aria-hidden="true">
+        <div class="plans-slide-grid">
+          
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-blue.png" alt="Convênio Blue" loading="lazy">
+            <span>Blue</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-bc-saude.png" alt="Convênio BC Saúde" loading="lazy">
+            <span>BC Saúde</span>
+          </article>
+          <article class="plan-logo-card">
+            <img src="assets/images/convenio-asfeb.png" alt="Convênio ASFEB" loading="lazy">
+            <span>ASFEB</span>
+          </article>
+        </div>
+      </div>
+      </div>
 
-      <article class="plan-card">
-        <div class="plan-logo">
-          <img src="assets/images/convenio-valesaude.jpg" alt="Convênio ValeSaúde" loading="lazy">
-        </div>
-        <div class="plan-copy">
-          <strong>ValeSaúde</strong>
-          <span>Consulte quais serviços estão disponíveis através do convênio.</span>
-        </div>
-      </article>
+      <button class="plans-arrow plans-arrow-next" type="button" data-plan-next aria-label="Próximos convênios">
+        <span aria-hidden="true">→</span>
+      </button>
+
+      <div class="plans-dots" aria-label="Navegação dos convênios">
+        <button class="plans-dot is-active" type="button" data-plan-dot="0" aria-label="Mostrar grupo 1 de convênios" aria-current="true"></button><button class="plans-dot" type="button" data-plan-dot="1" aria-label="Mostrar grupo 2 de convênios" aria-current="false"></button><button class="plans-dot" type="button" data-plan-dot="2" aria-label="Mostrar grupo 3 de convênios" aria-current="false"></button><button class="plans-dot" type="button" data-plan-dot="3" aria-label="Mostrar grupo 4 de convênios" aria-current="false"></button>
+      </div>
     </div>
 
     <div class="plans-footer reveal">
